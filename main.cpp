@@ -14,6 +14,15 @@ void func()
   #endif
 }
 
+void test_if_def()
+{
+  #if defined(IF_DEFINED)
+  cout << "has IF_DEFINED" << endl;
+  #else
+  cout << "not have IF_DEFINED" << endl;
+  #endif
+}
+
 int main()
 {
    func();
