@@ -7,11 +7,7 @@ using namespace std;
 
 void func()
 {
-  #ifdef A
-  cout << "has define A" << endl;
-  #else 
   cout << "not define A" << endl;
-  #endif
 }
 
 void test_if_def()
@@ -26,4 +22,5 @@ void test_if_def()
 int main()
 {
    func();
+   test_if_def();
 }
