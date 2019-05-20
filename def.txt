@@ -1,3 +1,4 @@
 #undef A
 #define IF_FIRST
 #define IF_DEFINED
+#define UTIL_FUNC
