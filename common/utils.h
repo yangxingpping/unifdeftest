@@ -4,4 +4,6 @@
 
 int util_func();
 
+int util_not_in_def();
+
 #endif

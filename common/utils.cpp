@@ -14,3 +14,14 @@ int util_func()
     #endif
     return 0;
 }
+
+int util_not_in_def()
+{
+    #ifdef UTIL_NOT_IN_DEF
+    cout << "this should never be printed" << endl;
+    #else 
+    cout << "this should printed every time" << endl;
+    #endif
+
+    return 0;
+}
