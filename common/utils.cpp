@@ -7,11 +7,7 @@ using namespace std;
 
 int util_func()
 {
-    #ifdef UTIL_FUNC
     cout << "defined util_func mac" << endl;
-    #else
-    cout << "not defined util_func mac" << endl;
-    #endif
     return 0;
 }
 
@@ -24,4 +20,13 @@ int util_not_in_def()
     #endif
 
     return 0;
+}
+
+void util_exclamation_def()
+{
+    #if !defined(EXCLAMATION_DEF)
+    cout << "not define exclamation def " << endl;
+    #else 
+    cout << "has define exclamation def" << endl;
+    #endif
 }

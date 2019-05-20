@@ -53,6 +53,7 @@ int main()
    test_if_def();
    test_def_logic_or();
    util_not_in_def();
+   util_exclamation_def();
    //print_str_hex();
 
   util_func();
