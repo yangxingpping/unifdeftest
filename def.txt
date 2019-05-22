@@ -3,3 +3,4 @@
 #define IF_DEFINED
 #define UTIL_FUNC
 #define EXCLAMATION_DEF
+#define IF_DEFINE_ELSE_IF_FIRST

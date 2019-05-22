@@ -54,6 +54,7 @@ int main()
    test_def_logic_or();
    util_not_in_def();
    util_exclamation_def();
+   else_if_define_or();
    //print_str_hex();
 
   util_func();
