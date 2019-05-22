@@ -30,3 +30,14 @@ void util_exclamation_def()
     cout << "has define exclamation def" << endl;
     #endif
 }
+
+void else_if_define_or()
+{
+    #ifdef IF_DEFINE_IF
+    cout << "defined if define or if_define_if" << endl;
+    #elif defined(IF_DEFINE_ELSE_IF_FIRST) || defined(IF_DEFINE_ELSE_IF_SECOND)
+    cout << "defined if_define_else_if_first or second" << endl;
+    #else
+    cout << "not define else_if_define_or " << endl;
+    #endif
+}
